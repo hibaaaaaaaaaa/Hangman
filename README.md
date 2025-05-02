@@ -13,8 +13,11 @@ A Hangman game built with Python and a graphical user interface using `tkinter`.
 #Project Structure
 
 Hangman/
+
 ├── hangman_gui.py # Main GUI game code
+
 ├── hangman_words.py # List of possible words
+
 ├── hangman_art.py # ASCII art stages and logo
 
 #How to Run
