@@ -60,9 +60,10 @@ def handle_guess():
     else:
         lives -= 1
         lives_label.config(text=f"Lives: {lives}")
+        art_label.config(text=stages[lives]) 
         message_label.config(text=f"Wrong! '{guess}' is not in the word.")
 
-    # Win or lose conditions
+    #win or loose condition
     if "_" not in display:
         message_label.config(text="🎉 You won!")
         entry.config(state='disabled')
